@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="utf-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+   <meta name="format-detection" content="telephone=no" />
+   <meta name="msapplication-tap-highlight" content="no" />
+   <meta name="viewport"
+      content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+   <meta name='author' href="https://github.com/juliansfreelance" email="jcalderon.code@gmail.com"
+      content='Julio Calderón - Desarrollador front-end' />
+   <meta name="description"
+      content="desarrollo de ayuda visual Salud y Belleza Megacistin para el laboratorio Siegfried" />
+   <title>Salud y Belleza - Megacistin | Siegfried</title>
+
+   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+   <script src="https://cdn.tailwindcss.com"></script>
+   <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+   <style>
+      * {
+         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+         -webkit-user-select: none;
+         user-select: none;
+         cursor: default;
+         overflow: hidden;
+         outline: 0;
+      }
+
+      html {
+         background: rgba(0, 0, 0, 255);
+         width: 100vw;
+         height: 100vh;
+      }
+
+      body {
+         background-color: rgba(255, 255, 255, 255);
+         position: absolute;
+      }
+
+      .ancho {
+         width: 100vw;
+         height: calc((3 / 4) * 100vw);
+         left: calc(50% - 50vw);
+         top: calc(50% - (((3 / 4) * 100vw) / 2));
+      }
+
+      .alto {
+         width: calc((4 / 3) * 100vh);
+         height: 100vh;
+         top: calc(50% - 50vh);
+         left: calc(50% - (((4 / 3) * 100vh) / 2));
+      }
+
+      .drop-shadow-user {
+         filter: drop-shadow(7px 7px 5px rgba(0, 0, 0, 0.4));
+      }
+   </style>
+</head>
+
+<body class="ancho">
+   <img src="img/megacistin_bg.png" class="bg"
+      class="animate__animated animate__fadeIn animate__delay-1s absolute top-0 left-0 w-full h-auto">
+   <section class="slide hidden" data-slide="1">
+      <img src="img/megacistin_slide1bg.png"
+         class="animate__animated animate__fadeIn animate__slow  absolute top-0 left-0 w-full h-auto">
+      <img src="img/megacistin_slide1texto1.png"
+         class="animate__animated animate__bounceInDown  animate__delay-1s absolute top-[9.2%] left-[5.3%] w-[54.6%]">
+      <img src="img/megacistin_slide1logo1.png"
+         class="animate__animated animate__lightSpeedInLeft animate__fast  animate__delay-2s absolute bottom-[17%] left-[5.82%] w-[25.3%]">
+   </section>
+   <section class="slide hidden" data-slide="2">
+      <img src="img/megacistin_slide2texto1.png" class="absolute top-[6%] left-[5.9%] w-[86.7%] h-auto">
+      <img src="img/megacistin_slide2grafico1.png" class=" animate__animated animate__flipInY drop-shadow-user absolute top-[35%] left-[13.5%] w-[36%] h-auto">
+      <img src="img/megacistin_slide2grafico2.png" class=" animate__animated animate__flipInY drop-shadow-user absolute top-[35%] left-[50.5%] w-[36%] h-auto">
+   </section>
+   <section class="slide hidden" data-slide="3">
+      <img src="img/megacistin_slide3texto1.png" class="absolute top-[6%] left-[5.9%] w-[80.2%] h-auto">
+      <img src="img/megacistin_slide3grafico1.png" class="animate__animated animate__backInUp drop-shadow-user absolute top-[20.2%] left-[8.3%] w-[80%] h-auto">
+   </section>
+   <section class="slide hidden" data-slide="4">
+      <img src="img/megacistin_slide4texto1.png" class="absolute top-[6.4%] left-[5.9%] w-[74.6%] h-auto">
+      <img src="img/megacistin_slide4grafico1.png" class="animate__animated animate__bounceInLeft drop-shadow-user absolute top-[24.9%] left-[5.5%] w-[88.6%] h-auto">
+      <img src="img/megacistin_slide4grafico2.png" class="animate__animated animate__bounceInRight drop-shadow-user absolute top-[44.3%] left-[5.5%] w-[88.6%] h-auto">
+   </section>
+   <section class="slide hidden" data-slide="5">
+      <img src="img/megacistin_slide5texto1.png" class="absolute top-[6%] left-[5.9%] w-[80.2%] h-auto">
+      <img src="img/megacistin_slide5grafico1.png" class="animate__animated animate__fadeInRight  absolute top-[27%] left-[6%] w-[49%] h-auto">
+      <img src="img/megacistin_slide5grafico2.png" class="animate__animated animate__fadeInRight animate__delay-1s absolute top-[27%] left-[47%] w-[55%] h-auto">
+      <img src="img/megacistin_slide5grafico3.png" class="animate__animated animate__fadeInRight animate__delay-2s absolute top-[46.5%] left-[6%] w-[49%] h-auto">
+      <img src="img/megacistin_slide5grafico4.png" class="animate__animated animate__fadeInRight animate__delay-3s absolute top-[46.5%] left-[47%] w-[55%] h-auto">
+      <img src="img/megacistin_slide5grafico5.png" class="animate__animated animate__fadeInRight animate__delay-4s absolute top-[65.5%] left-[6%] w-[93.9%] h-auto">
+   </section>
+   <section class="slide hidden" data-slide="6">
+      <img src="img/megacistin_slide6bg.png" class="absolute top-0 left-0 w-full h-auto">
+      <img src="img/megacistin_slide6texto1.png" class="absolute top-[6%] left-[22.8%] mx-auto w-[53.5%] h-auto">
+      <img src="img/megacistin_slide6grafico1.png" class="animate__animated animate__jackInTheBox absolute top-[8.5%] left-[16.9%] w-[65%] h-auto">
+   </section>
+   <section class="slide hidden" data-slide="7">
+      <img src="img/megacistin_slide7texto1.png" class="absolute top-[9.5%] left-[5.9%] w-[88.4%] h-auto">
+   </section>
+
+   <!-- controles -->
+   <section class="menu absolute w-full bottom-0 left-0 flex justify-center items-center h-[13.2%]">
+      <img src="img/megacistin_menu1.png" data-slide="1" class="cursor-pointer h-[45.7%] mx-[1.4%] drop-shadow-user" onclick="updateSlide(1);">
+      <img src="img/megacistin_menu2.png" data-slide="2" class="animate__animated animate__bounceInUp  cursor-pointer h-[45.7%] mx-[1.4%] drop-shadow-user" onclick="updateSlide(2);">
+      <img src="img/megacistin_menu3.png" data-slide="3" class="animate__animated animate__bounceInUp  animate__delay-1s cursor-pointer h-[45.7%] mx-[1.4%] drop-shadow-user" onclick="updateSlide(3);">
+      <img src="img/megacistin_menu4.png" data-slide="4" class="animate__animated animate__bounceInUp  animate__delay-2s cursor-pointer h-[45.7%] mx-[1.4%] drop-shadow-user" onclick="updateSlide(4);">
+      <img src="img/megacistin_menu5.png" data-slide="5" class="animate__animated animate__bounceInUp  animate__delay-3s cursor-pointer h-[45.7%] mx-[1.4%] drop-shadow-user" onclick="updateSlide(5);">
+      <img src="img/megacistin_menu6.png" data-slide="6" class="animate__animated animate__bounceInUp  animate__delay-4s cursor-pointer h-[45.7%] mx-[1.4%] drop-shadow-user" onclick="updateSlide(6);">
+      <img src="img/megacistin_menu7.png" data-slide="7" class="animate__animated animate__bounceInUp  animate__delay-5s cursor-pointer h-[45.7%] mx-[1.4%] drop-shadow-user" onclick="updateSlide(7);">
+   </section>
+
+   <section class="prev absolute flex justify-center items-center top-0 left-0 w-[5%] h-full bg-slate-800/5 hover:bg-slate-800/10 opacity-80 hover:opacity-100 cursor-pointer" onclick="prev()">
+      <img src="img/megacistin_arrow.png" class=" w-[56%] transform -scale-x-100 cursor-pointer">
+   </section>
+
+   <section class="next absolute flex justify-center items-center top-0 right-0 w-[5%] h-full bg-slate-800/5 hover:bg-slate-800/10 opacity-80 hover:opacity-100 cursor-pointer" onclick="next()">
+      <img src="img/megacistin_arrow.png" class=" w-[56%]  cursor-pointer">
+   </section>
+
+   <script>
+      // Definir la variable de ubicación de assets
+      let develop = '../siegfriedAvAssets';
+      let production = 'https://eml.com.co/Siegfried';
+      let locationPrefix = develop; // Cambia esto según tus necesidades, por ejemplo 'desarrollo' o 'production'
+      let slideActive = 0;
+
+      let htmlancho;
+      let htmlalto;
+      let bodyancho;
+      let bodyalto;
+      let id;
+      $(window).resize(function () {
+         clearTimeout(id);
+         id = setTimeout(CambioVentana(), 500);
+      });
+
+      function CambioVentana() {
+         htmlancho = $('html').width();
+         htmlalto = $('html').height();
+         bodyancho = $('body').width();
+         bodyalto = $('body').height();
+         if ($('body').hasClass('alto') && bodyancho > htmlancho) {
+            $('body').removeClass('alto').addClass('ancho');
+         }
+         if ($('body').hasClass('ancho') && bodyalto > htmlalto) {
+            $('body').removeClass('ancho').addClass('alto');
+         }
+      }
+
+      $(document).ready(function () {
+         CambioVentana();
+         updateSlide(1);
+      });
+      function next(){
+         slideActive++;
+         updateSlide(slideActive);
+      }
+
+      function prev() {
+         slideActive--;
+         updateSlide(slideActive);
+      }
+
+
+      function updateSlide(slideActive) {
+         slideActive = slideActive;
+         slideActive === 1 ? $('.prev').addClass('hidden'): $('.prev').removeClass('hidden');
+         slideActive === 7 ? $('.next').addClass('hidden') : $('.next').removeClass('hidden');
+         slideActive === 6 ? $('.bg').addClass('hidden') : $('.bg').removeClass('hidden');
+
+         const imagenes = document.querySelectorAll('.menu img');
+         const slides = document.querySelectorAll('.slide');
+
+         imagenes.forEach(function (img) {
+            const numeroSlide = parseInt(img.getAttribute('data-slide'));
+            if (numeroSlide === slideActive) {
+               img.src = `${locationPrefix}/img/megacistin_menu${slideActive}Active.png`;
+            } else {
+               img.src = `${locationPrefix}/img/megacistin_menu${numeroSlide}.png`;
+            }
+         });
+
+         slides.forEach(function (seccion) {
+            const numeroSlide = parseInt(seccion.getAttribute('data-slide'));
+            if (numeroSlide === slideActive) {
+               seccion.classList.remove('hidden');
+            } else {
+               seccion.classList.add('hidden');
+            }
+         });
+      }
+
+
+
+      // Función para actualizar las rutas de los assets
+      function actualizarAssets() {
+         // Actualizar rutas de imágenes
+         let imagenes = document.querySelectorAll('img');
+         imagenes.forEach(function (img) {
+            let src = img.getAttribute('src');
+            if (!src.startsWith('https://')) {
+               img.setAttribute('src', locationPrefix + '/' + src);
+            }
+         });
+
+         // Actualizar rutas de archivos JavaScript
+         let scripts = document.querySelectorAll('script[src]');
+         scripts.forEach(function (script) {
+            let src = script.getAttribute('src');
+            if (!src.startsWith('https://')) {
+               script.setAttribute('src', locationPrefix + '/' + src);
+            }
+         });
+
+         // Actualizar rutas de archivos CSS
+         let linksCSS = document.querySelectorAll('link[rel="stylesheet"]');
+         linksCSS.forEach(function (link) {
+            let href = link.getAttribute('href');
+            if (!href.startsWith('https://')) {
+               link.setAttribute('href', locationPrefix + '/' + href);
+            }
+         });
+         console.clear();
+      }
+
+      document.addEventListener('DOMContentLoaded', function () {
+         actualizarAssets();
+      });
+   </script>
+</body>
+
+</html>
